@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeadChat</title>
+    <script src"http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="/img/Logo.png" alt="Dead_logo" />
+    </nav>
+    <div class="container">
+      <div class="message right">Harsh: Hey how are you?</div>
+      <div class="message left">Havi: Bhai I am fine , how about you?</div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="sendMsg" id="sendMsg">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+  </body>
+</html>

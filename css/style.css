@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 90px;
+  box-shadow:5px 5px 10px rgb(14, 13, 13);
+  /* height: 80px; */
+}
+
+body{
+   background:url("/img/kamil-feczko-GhxWry42_zQ-unsplash.jpeg")no-repeat center center/cover;
+   height: 100vh;
+}
+
+.container {
+  font-size:18px;
+  max-width: 955px;
+  background:url("/img/simon-lee--Fwk9U20w6I-unsplash.jpeg")no-repeat center center/cover;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  height: 60vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  box-shadow:5px 5px 10px rgb(10, 10, 10);
+}
+
+.send{
+    margin:15px auto;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#sendMsg{
+    width: 50%;
+    border:2px solid black;
+    border-radius:5px;
+    height:3vh;
+}
+
+.message {
+  background-color: aliceblue;
+  width: 24%;
+  padding: 10px;
+  margin: 10px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  clear: both;
+  box-shadow:5px 5px 10px rgb(14, 13, 13);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius:5px;
+    font-size: medium;
+    width:100pxƒ;
+    margin:5px;
+    padding: 5px 6px;
+}
